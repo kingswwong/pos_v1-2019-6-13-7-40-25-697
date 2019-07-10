@@ -3,7 +3,7 @@ const barcodeFormat = barcodes => {
         if(barcode.indexOf('-') !== -1){
             let index = barcode.indexOf('-')
             let real_barcode = barcode.substring(0,index);
-            let count = parseInt(barcode.substring(index + 1));
+            let count = parseFloat(barcode.substring(index + 1));
             barcodes.splice(barcodes.indexOf(barcode),1)
             for(let i = 0;i < count;i++){
                 barcodes.push(real_barcode)
