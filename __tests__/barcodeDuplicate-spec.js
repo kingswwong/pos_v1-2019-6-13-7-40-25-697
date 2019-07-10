@@ -1,6 +1,6 @@
 const barcodeDuplicate = require('../src/barcodeDuplicate')
 
-it('should be return resal_answer when invoke the barcodeFormat function given the data', () => {
+it('should be return resal_answer when invoke the barcodeDuplicate function given the data', () => {
     //given
     const data = ["ITEM000001", "ITEM000001", "ITEM000001", "ITEM000001", "ITEM000001", "ITEM000005", "ITEM000005", "ITEM000005", "ITEM000003", "ITEM000003"]
     //when
