@@ -1,6 +1,6 @@
 const barcodeFormat = require('../src/barcodeFormat')
 
-it('should ', () => {
+it('should be return resal_answer when invoke the barcodeFormat function given the data', () => {
     //given
     const data = [
         'ITEM000001',
