@@ -4,7 +4,7 @@ it('should be return {barcode: "ITEM000000", name: "可口可乐", unit: "瓶", 
     //given
     const barcode = "ITEM000000"
     //when
-    const result = getItem(barcode)
+    const result = getItem(barcode)[0]
     const real_answer = {barcode: "ITEM000000", name: "可口可乐", unit: "瓶", price: 3}
 
     //then
